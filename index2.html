@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Iframe Example</title>
+  <style>
+    body {
+      margin: 0;
+      padding:0;
+    }
+    div{
+    display:none;
+    }
+  </style>
+</head>
+<body>
+
+<script>
+  const iframe = document.createElement('iframe');
+  iframe.src = 'https://evergreen-market.x10.bz/';
+  iframe.style.width = '100%';
+  iframe.style.height = '100vh'; 
+  iframe.style.border = 'none';
+  document.body.appendChild(iframe);
+</script>
+
+</body>
+</html>
+
